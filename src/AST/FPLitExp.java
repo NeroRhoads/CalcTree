@@ -4,12 +4,19 @@ package AST;
 
 public
 class FPLitExp extends SimpleNode {
+    
+String identificador;
+    
   public FPLitExp(int id) {
     super(id);
   }
 
   public FPLitExp(CalcParser p, int id) {
     super(p, id);
+  }
+  
+  void setFPLIT(String image) {
+      identificador = image;
   }
 
 }

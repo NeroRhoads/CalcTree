@@ -531,4 +531,3 @@ void OptDefaultValue()     : {/*@bgen(jjtree) Opt */
   }
 /*@egen*/
 }
-
